@@ -1,0 +1,12 @@
+$(function(){
+    $(".members>a:first-child").click(function(){
+        $(".modal-wrap").css({display:"flex"});
+    })
+    $(".modal-close").click(function(){
+        $(".modal-wrap").hide();
+    })
+    $(".register-link>p>a").click(function(){
+        $(".modal-wrap").hide();
+        $(".modal-wrap-2").css({display:"flex"});
+    })
+})

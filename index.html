@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사랑병원</title>
+    <meta property="og:url" content="http://admin2201.dothome.co.kr/SRhospital">
+    <meta property="og:image" content="http://admin2201.dothome.co.kr/OhCamping/images/thumbnail.jpg">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/modal-login.js"></script>
+    <script src="./js/modal-members.js"></script>
+</head>
+<body>
+    <main>
+        <div class="top-header">
+            <div class="top-con">
+                <div class="site-top">
+                    <a href="index.html">HOME</a>
+                    <a href="#">|</a>
+                    <a href="#">CONTACT US</a>
+                </div>
+                <div class="members">
+                    <a href="#">로그인</a>
+                    <a href="#">|</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="modal-wrap">
+                <div class="modal-body">
+                    <h1>로그인</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="아이디 입력">
+                        <i class="fa fa-user-circle"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="Password" placeholder="비밀번호 입력" required>
+                        <i class="fa fa-lock"></i>
+                    </div>
+            
+                    <div class="remmber-forgot">
+                        <label><input type="checkbox">로그인 상태 유지</label>
+                        <a hred="#">비밀번호 찾기</a>
+                    </div>
+            
+                    <button type="sumit" class="btn">Login</button>
+            
+                    <div class="register-link">
+                        <p>계정이 없으신가요? <a href="#">회원가입</a></p>
+                    </div>
+            
+                    <button class="naver" onclick="window.open('//www.naver.com');"> 네이버 </button>
+                    <button class="kakao" onclick="window.open('//www.kakaocorp.com/');"> 카카오 </button>
+                    <button class="face" onclick="window.open('//www.facebook.com/');"> 페이스북 </button>
+                    <button class="modal-close">X</button>
+                </div>
+            </div>
+            <div class="modal-wrap-2">
+                <div class="modal-body-2">
+                    <h4>환영합니다.</h4>
+    
+                <div class="input-box-2">
+                    <div class="input-field">
+                        <input type="text" placeholder="이름" required>
+                        <i class='bx bxs-user' ></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="주소(도로명)" required>
+                        <i class='bx bxs-user' ></i>
+                    </div>
+                </div>
+    
+                <div class="input-box-2">
+                    <div class="input-field">
+                        <input type="email" placeholder="전화번호" required>
+                        <i class='bx bxs-envelope' ></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="number" placeholder="E-mail" required>
+                        <i class='bx bxs-phone' ></i>
+                    </div>
+                </div>
+    
+                <div class="input-box-2">
+                    <div class="input-field">
+                        <input type="password" placeholder="ID" required>
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="PassWord" required>
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                </div>
+    
+                <label><input type="checkbox">회원가입을 수락한다면 체크를 부탁드립니다.</label>
+    
+                <button type="submit" class="btn">가입하기</button>
+                </div>
+                    <button class="modal-close-2">X</button>
+                </div>
+            <h1>
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="사랑병원 로고">
+                </a>
+            </h1>
+            <div class="nav-box">
+                <nav>
+                    <div class="main-nav">
+                        <a href="sub.html">병원소개</a>
+                        <div class="drop">
+                            <a href="sub.html">인사말</a>
+                            <a href="#">의료진 소개</a>
+                            <a href="#">연혁</a>
+                            <a href="#">층별안내</a>
+                            <a href="#">사회공헌</a>
+                            <a href="#">병원갤러리</a>
+                            <a href="#">찾아오시는 길</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">이용안내</a>
+                        <div class="drop">
+                            <a href="#">진료예약</a>
+                            <a href="#">진료시간</a>
+                            <a href="#">진료과목</a>
+                            <a href="#">진료안내</a>
+                            <a href="#">비급여 안내</a>
+                            <a href="#">응급실 이용안내</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">뇌척추센터</a>
+                        <div class="drop">
+                            <a href="#">뇌신경질환</a>
+                            <a href="#">척추질환</a>
+                            <a href="#">수술적 치료</a>
+                            <a href="#">비수술적 치료</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">관절센터</a>
+                        <div class="drop">
+                            <a href="#">로봇인공관절센터</a>
+                            <a href="#">무릎질환</a>
+                            <a href="#">고관절질환</a>
+                            <a href="#">어깨질환</a>
+                            <a href="#">골다공증</a>
+                            <a href="#">석고붕대</a>
+                            <a href="#">인대염좌</a>
+                            <a href="#">수근관 증후군</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">내과센터</a>
+                        <div class="drop">
+                            <a href="#">암케어전담병동</a>
+                            <a href="#">상부위장관질환</a>
+                            <a href="#">위내시경</a>
+                            <a href="#">대장내시경</a>
+                            <a href="#">호흡기질환</a>
+                            <a href="#">고혈압</a>
+                            <a href="#">고지혈증</a>
+                            <a href="#">당뇨병</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">외과센터</a>
+                        <div class="drop">
+                            <a href="#">유방질환</a>
+                            <a href="#">담석증</a>
+                            <a href="#">갑상선</a>
+                            <a href="#">탈장</a>
+                            <a href="#">하지정맥류</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">치과센터</a>
+                        <div class="drop">
+                            <a href="#">임플란트</a>
+                            <a href="#">심미보철</a>
+                            <a href="#">일반진료</a>
+                            <a href="#">교정센터</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">검진센터</a>
+                        <div class="drop">
+                            <a href="#">공단검진</a>
+                            <a href="#">종합검진</a>
+                            <a href="#">뇌정밀검진</a>
+                            <a href="#">가정의학과</a>
+                            <a href="#">종합검진 예약 및 문의</a>
+                        </div>
+                    </div>
+                    <div class="main-nav">
+                        <a href="#">고객센터</a>
+                        <div class="drop">
+                            <a href="#">건강정보</a>
+                            <a href="#">고객의 소리</a>
+                            <a href="#">인재채용</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section id="content">
+            <div class="slier-wrap">
+                <div class="slider">
+                    <div class="slide">
+                        <a href="#">
+                            <img src="./images/img1.png" alt="슬라이더1">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="#">
+                            <img src="./images/img2.png" alt="슬라이더2">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="#">
+                            <img src="./images/img3.png" alt="슬라이더3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="n-n-m">
+                <div class="notic">
+                    <h2>병원소식</h2>
+                    <span><img src="./images/btn_more.gif" alt="바로가기"></span>
+                    <ul>
+                        <li><a href="#">G1방송 [홈닥터] <span>2023.09.08</span></a></li>
+                        <li><a href="#">G1방송 [홈닥터] <span>2023.08.27</span></a></li>
+                        <li><a href="#">G1방송 [홈닥터] <span>2023.08.21</span></a></li>
+                        <li><a href="#">G1방송 [홈닥터] <span>2023.05.08</span></a></li>
+                        <li><a href="#">G1방송 [홈닥터] <span>2023.03.03</span></a></li>
+                        <li><a href="#">G1방송 [홈닥터] <span>2023.01.01</span></a></li>
+                    </ul>
+                </div>
+                <div class="notic-2">
+                    <h2>건강정보</h2>
+                    <span><img src="./images/btn_more.gif" alt="바로가기"></span>
+                    <ul>
+                        <li><a href="#">암검진 정보 <span>2023.09.08</span></a></li>
+                        <li><a href="#">현대인의 직업병 <span>2023.08.27</span></a></li>
+                        <li><a href="#">기관지 천식 <span>2023.08.27</span></a></li>
+                        <li><a href="#">미세먼지와 호흡기 질환 <span>2023.05.08</span></a></li>
+                        <li><a href="#">독감에 대한 상식과 이해 <span>2023.03.03</span></a></li>
+                        <li><a href="#">기관지 확장증 <span>2023.01.01</span></a></li>
+                    </ul>
+                </div>
+                <div class="icon-box">
+                    <div class="reservation">
+                        <a href="#">
+                            <img src="./images/btn5.gif" alt="진료예약 바로가기">
+                        </a>
+                    </div>
+                    <div class="icon-wrap">
+                        <a href="#">
+                            <img src="./images/btn1.png" alt="증명서 발급">
+                            <p>증명서 발급</p>
+                        </a>
+                        <a href="#">
+                            <img src="./images/btn2.png" alt="동의서 및 위임장 양식">
+                            <p>동의서 및 위임장 <br>양식<br></p>
+                        </a>
+                        <a href="#">
+                            <img src="./images/btn3.png" alt="비급여 안내">
+                            <p>비급여 안내</p>
+                        </a>
+                        <a href="#">
+                            <img src="./images/btn4.png" alt="종합검진 예약 및 문의 (공단검진제외)">
+                            <p>종합검진 예약 및 <br>문의<br> (공단검진제외)</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="b-v-b">
+                <div class="banner">
+                    <a href="#">
+                        <img src="./images/tv-banner.png" alt="tv배너">
+                    </a>
+                </div>
+                <div class="video-container">
+                    <iframe width="400x" height="223px" src="https://www.youtube.com/embed/X6W39r7rSgY" title="[티비홈닥터] 위가 위험하다 &#39;소화성 궤양&#39; / TV홈닥터 더 나은 클리닉 12회 / G1방송 / 20220530" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+                </div>
+                <div class="banner-2">
+                    <a href="#">
+                        <img src="./images/phone-banner.png" alt="phone배너">
+                    </a>
+                </div>
+            </div>
+            <div class="map-container">
+                <h3>오시는길</h3>
+                <p>병원 오시는 길을 알려드립니다.</p>
+                <div class="map">
+                    <!-- * 카카오맵 - 지도퍼가기 -->
+                <!-- 1. 지도 노드 -->
+            <div id="daumRoughmapContainer1703640170763" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+            <!--
+                2. 설치 스크립트
+                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+            -->
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+            <!-- 3. 실행 스크립트 -->
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp" : "1703640170763",
+                    "key" : "2he3t",
+                    "mapWidth" : "1200",
+                    "mapHeight" : "360"
+                }).render();
+            </script>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-bar">
+                    <a href="#">사랑병원</a>
+                    <a href="#">진료시간</a>
+                    <a href="#">진료과목</a>
+                    <a href="#">증명서 발급</a>
+                    <a href="#">층별안내</a>
+                    <a href="#">입·퇴원 수속안내</a>
+                    <a href="#">비급여 안내</a>
+                </div>
+            </footer>
+            <div class="footer-low">
+                <div class="footer-text">
+                    <p>의료법인 사랑의료재단 사랑병원 | 대표자:오정현 | 병원장 : 오정현 | 사업자등록번호 : 000-00-00000<br>
+                        (서울) 서울특별시 노원구 XX로 | 대표번호 : 0000-0000 / fax : 000-000-0000<br>
+                        COPYRIGHT &copy; by WEBDESIGN. ALL RIGHTS RESERVED</p>
+                </div>
+                <div class="sns">
+                    <a href="#">
+                        <img src="./images/sns1.jpg" alt="sns1">
+                    </a>
+                    <a href="#">
+                        <img src="./images/sns2.jpg" alt="sns2">
+                    </a>
+                    <a href="#">
+                        <img src="./images/sns3.jpg" alt="sns3">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>         
+            </body>
+            </html>

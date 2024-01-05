@@ -52,7 +52,8 @@ main{
 }
 
 .site-top{
-    width: 200px; 
+    width: 200px;
+    margin: 0 50px;
 }
 
 .site-top a{
@@ -105,6 +106,7 @@ h1 img{
     background-color: white;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    /* display: none; */
 }
 
 nav{
@@ -163,9 +165,9 @@ nav{
     height: 600px;
 }
 
-.slier-wrap{
+.slider-wrap{
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     position: relative;
 }
 
@@ -330,13 +332,28 @@ nav{
 }
 
 .b-v-b>div{
-    width: 100%;
+    width: 33.33%;
 }
 
 .banner img,
 .banner-2 img{
-    width: 390px;
-    height: 223px;
+    width: 93%;
+    height: auto;
+}
+
+.video-container>div{
+    width:100%;
+    position: relative;
+    height:0;
+    padding-bottom:56.25%;
+}
+
+iframe{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
 }
 
 .map{
@@ -696,6 +713,184 @@ footer{
     font-size: 16px;
     font-weight: bold;
     color: #333;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width:1100px){
+    .site-top a{
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .members a{
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .header-wrap{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    h1 a{
+        width: 230px;
+        padding: 20px 0;
+    }
+
+    h1 img{
+        width: 100%;
+    }
+
+    .n-n-m h2{
+        font-size: 28px;
+    }
+
+    .notic span img, 
+    .notic-2 span img{
+        width: 13%;
+    }
+
+    .notic li a, 
+    .notic-2 li a{
+        font-size: 15px;
+    }
+
+    .nav-box{
+        display: none;
+    }
+
+    .n-n-m{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .n-n-m>div{
+        width: 50%;
+    }
+
+    .icon-box{
+        width: 80% !important;
+        margin-top: 10px;
+    }
+
+    .reservation{
+        width: 90%;
+    }
+
+    .reservation img{
+        justify-content: center;
+        align-items: center;
+        padding-left: 70px;
+    }
+
+    .b-v-b{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .b-v-b>div{
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .banner img{
+        width: 93%;
+        height: auto;
+    }
+
+    .banner-2 img{
+        width: 100%;
+        height: auto;
+    }
+    .video-container{
+        
+    }
+    .video-container>div{
+        width:100%;
+        position: relative;
+        height:0;
+        padding-bottom:56.25%;
+    }
+    iframe{
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+    }
+
+    .mobile-nav{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 13px;
+    }
+
+    button.m-open{
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        font-size: 24px;
+        padding-right: 45px;
+    }
+}
+
+@media screen and (max-width:460px){
+    h1 a{
+        width: 150px;
+        padding: 15px 0;
+    }
+
+    .n-n-m h2{
+        font-size: 17px;
+    }
+
+    .notic span img, 
+    .notic-2 span img{
+        width: 20%;
+    }
+
+    .notic li a, 
+    .notic-2 li a{
+        font-size: 11px;
+    }
+
+    .reservation img{
+        width: 100%;
+    }
+
+    .map-container>h3{
+        font-size: 18px;
+    }
+
+    .map-container>p{
+        font-size: 15px;
+    }
+
+    .footer-bar a{
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .footer-text{
+        font-size: 10px;
+    }
+
+    .sns{
+        width: 60%;
+    }
+
 }
 
 

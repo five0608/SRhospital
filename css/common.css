@@ -644,7 +644,7 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: transparent
+    background: transparent;
 }
 
 .input-box-2 .input-field{
@@ -703,10 +703,10 @@ footer{
 
 .modal-close-2{
     position: absolute;
-    width: 3%;
-    height: 18px;
-    top: 24%;
-    right: 29.7%;
+    width: 7%;
+    height: 23px;
+    top: 20px;
+    right: 40px;
     background: white;
     border: 1px solid black;
     border-radius: 40px;
@@ -935,10 +935,25 @@ footer{
         font-size: 16px;
         color: white;
     }
+
+    .sns{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:800px){
+    .n-n-m h2{
+        font-size: 17px;
+    }
 
+    .notic li a,
+    .notic-2 li a{
+        font-size: 13px;
+    }
+
+    .sns{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:460px){

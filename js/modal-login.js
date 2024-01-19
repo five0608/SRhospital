@@ -1,6 +1,7 @@
 $(function(){
     $(".members>a:first-child").click(function(){
         $(".modal-wrap").css({display:"flex"});
+        $(".modal-wrap-2").hide();
     })
     $(".modal-close").click(function(){
         $(".modal-wrap").hide();
